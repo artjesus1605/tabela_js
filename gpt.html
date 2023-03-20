@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clínica Bom Coração</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Clínica Bom Coração</h1>
+		<h2>Agendamento de Consultas</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Agendar Nova Consulta</h3>
+				<form id="form-agendar-consulta">
+					<div class="form-group">
+						<label for="nome-paciente">Nome do Paciente:</label>
+						<input type="text" class="form-control" id="nome-paciente" name="nome-paciente">
+					</div>
+					<div class="form-group">
+						<label for="data-consulta">Data da Consulta:</label>
+						<input type="date" class="form-control" id="data-consulta" name="data-consulta">
+					</div>
+					<div class="form-group">
+						<label for="hora-consulta">Hora da Consulta:</label>
+						<input type="time" class="form-control" id="hora-consulta" name="hora-consulta">
+					</div>
+					<div class="form-group">
+						<label for="medico-responsavel">Médico Responsável:</label>
+						<select class="form-control" id="medico-responsavel" name="medico-responsavel">
+							<option value="">Selecione um médico</option>
+							<option value="Dr. João">Dr. João</option>
+							<option value="Dra. Maria">Dra. Maria</option>
+							<option value="Dr. José">Dr. José</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">agendar</button>
+                    
+                        
+                    </body>
